@@ -164,3 +164,66 @@ section h2::after{
 
 }
 
+.competences table{
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #F8F8F8;
+    box-shadow: 0 5px 15px rgba(0, 0, 0 , 0.08);
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+.competences table th, .competences table td {
+    padding: 15px;
+}
+
+.competences table th {
+    background-color: var(--violet-doux);
+    color: #F8F8F8;
+    text-transform: uppercase;
+
+}
+.competences table tr{
+    /*c'est comme ca que l'on ajoute un commentaire*/
+    border-bottom: 1px solid var(--gris-clair);
+}
+.competences table td:nth-child(even) {
+    background-color: #F8F8F8;
+}
+
+.competences table  tr {
+    transition: background-color 0.3s ease;
+}
+
+.competences table  tr:hover {
+    background-color: #F8F8F8;
+}
+.competences table th {
+    text-align: left;
+}
+
+footer {
+    margin-top: 3rem;
+    background-color: var(--violet-doux);
+    padding: 3rem 0;
+    text-align: center;
+}
+
+footer p {
+    color: white;
+    margin-bottom: 1.2rem;
+}
+
+footer a {
+    display: inline-block;
+    font-size: 1.6rem;
+    color: white;
+    margin: 0 10px;
+    transition: color 0.3s ease, transform 0.2s ease;
+}
+
+footer a:hover {
+    color: var(--orange-vif);
+    transform: translateY(-3px);
+}
