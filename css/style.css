@@ -188,8 +188,8 @@ section h2::after{
     /*c'est comme ca que l'on ajoute un commentaire*/
     border-bottom: 1px solid var(--gris-clair);
 }
-.competences table td:nth-child(even) {
-    background-color: #F8F8F8;
+.competences table body td:nth-child(even) {
+    background-color: #fdfdfd;
 }
 
 .competences table  tr {
@@ -197,7 +197,7 @@ section h2::after{
 }
 
 .competences table  tr:hover {
-    background-color: #F8F8F8;
+    background-color: #f0f0f0;
 }
 .competences table th {
     text-align: left;
@@ -227,3 +227,4 @@ footer a:hover {
     color: var(--orange-vif);
     transform: translateY(-3px);
 }
+
